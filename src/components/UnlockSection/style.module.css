@@ -1,0 +1,66 @@
+.unlock-section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 144px;
+  position: relative;
+  width: 1440px;
+}
+
+.unlock-section .mobile-login-pana {
+  height: 433.4px;
+  position: relative;
+  width: 441.53px;
+}
+
+.unlock-section .frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  width: 661px;
+}
+
+.unlock-section .div {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 601px;
+}
+
+.unlock-section .p {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  margin-top: -1px;
+}
+
+.unlock-section .one-event-calendar {
+  color: #717171;
+  text-align: left;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.unlock-section .button-instance {
+  flex: 0 0 auto !important;
+}
+
+.unlock-section .design-component-instance-node {
+  font-family: var(--body-medium-body-2-font-family) !important;
+  font-size: var(--body-medium-body-2-font-size) !important;
+  font-style: var(--body-medium-body-2-font-style) !important;
+  font-weight: var(--body-medium-body-2-font-weight) !important;
+  letter-spacing: var(--body-medium-body-2-letter-spacing) !important;
+  line-height: var(--body-medium-body-2-line-height) !important;
+}

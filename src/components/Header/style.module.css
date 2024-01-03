@@ -1,0 +1,91 @@
+.frameHeader {
+  background-color: var(--neutralsilver);
+  height: 84px;
+  position: relative;
+  width: 1440px;
+}
+
+.frameHeader .group {
+  height: 24px;
+  left: 426px;
+  position: absolute;
+  top: 30px;
+  width: 588px;
+}
+
+.frameHeader .heading-name {
+  align-items: center;
+  display: inline-flex;
+  gap: 50px;
+  justify-content: center;
+  position: relative;
+}
+
+.frameHeader .label-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.frameHeader .text-wrapper {
+  color: #18191f;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.frameHeader .logo-instance {
+  left: 105px !important;
+  position: absolute !important;
+  top: 30px !important;
+}
+
+.frameHeader .login {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 14px;
+  left: 1138px;
+  position: absolute;
+  top: 22px;
+}
+
+.frameHeader .button {
+  all: unset;
+  align-items: center;
+  background-color: var(--neutralsilver);
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.frameHeader .div-wrapper {
+  all: unset;
+  align-items: center;
+  background-color: var(--brandprimary);
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.frameHeader .text-wrapper-2 {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}

@@ -1,0 +1,38 @@
+.frame {
+  align-items: center;
+  background-color: var(--neutralsilver);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 0px;
+  position: relative;
+  width: 1440px;
+  margin-top: 240px;
+}
+
+.frame .let-nextcent-do-the {
+  color: #263238;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 887px;
+}
+
+.frame .button-instance {
+  flex: 0 0 auto !important;
+}
+
+.frame .design-component-instance-node {
+  font-family: var(--body-medium-body-2-font-family) !important;
+  font-size: var(--body-medium-body-2-font-size) !important;
+  font-style: var(--body-medium-body-2-font-style) !important;
+  font-weight: var(--body-medium-body-2-font-weight) !important;
+  letter-spacing: var(--body-medium-body-2-letter-spacing) !important;
+  line-height: var(--body-medium-body-2-line-height) !important;
+}
