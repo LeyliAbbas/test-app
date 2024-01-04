@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <UnlockSection />
-      {/* <CommunityUpdates /> */}
+      <CommunityUpdates />
       <InfoSection />
       {/* <FooterBig /> */}
     </main>

@@ -29,6 +29,7 @@ export const CommunityUpdates = (): JSX.Element => {
             </p>
             <div className={classes['div']}>
               <div className={classes['text-wrapper-2']}>Readmore</div>
+              <Image alt='arrow' src='/arrow.svg' width={24} height={24} />
             </div>
           </div>
         </div>
@@ -47,6 +48,7 @@ export const CommunityUpdates = (): JSX.Element => {
             </p>
             <div className={classes['div']}>
               <div className={classes['text-wrapper-2']}>Readmore</div>
+              <Image alt='arrow' src='/arrow.svg' width={24} height={24} />
             </div>
           </div>
         </div>
@@ -64,6 +66,7 @@ export const CommunityUpdates = (): JSX.Element => {
             </p>
             <div className={classes['div']}>
               <div className={classes['text-wrapper-2']}>Readmore</div>
+              <Image alt='arrow' src='/arrow.svg' width={24} height={24} />
             </div>
           </div>
         </div>

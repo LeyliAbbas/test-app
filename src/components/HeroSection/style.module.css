@@ -1,5 +1,6 @@
 .hero-section {
   background-color: var(--neutralsilver);
+  position: relative;
 }
 
 .hero-section .container {
@@ -71,6 +72,11 @@
   line-height: 24px;
 }
 
+.hero-section .dots {
+  position: absolute;
+  left: calc(50% - 20px);
+  bottom: 16px;
+}
 
 @media only screen and (max-width: 1200px) {
   .hero-section .container {

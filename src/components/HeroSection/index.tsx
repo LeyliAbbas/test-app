@@ -29,6 +29,13 @@ export const HeroSection = (): JSX.Element => {
           width={391}
           height={407}
         />
+        <Image
+          className={classes['dots']}
+          alt='dots'
+          src='/dots.svg'
+          width={46}
+          height={10}
+        />
       </div>
     </div>
   );

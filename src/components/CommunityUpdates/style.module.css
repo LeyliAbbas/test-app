@@ -1,10 +1,10 @@
 .community-updates {
   align-items: center;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 16px;
-  position: relative;
-  margin-top: 48px;
+  width: 1152px;
+  margin: 48px auto 0;
 }
 
 .community-updates .community {
@@ -13,28 +13,25 @@
   flex: 0 0 auto;
   flex-direction: column;
   gap: 8px;
-  position: relative;
-  width: 1110px;
 }
 
 .community-updates .section-title {
   color: #4d4d4d;
-  font-family: Inter;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
   line-height: 44px;
+  text-align: center;
 }
 
 .community-updates .description {
   color: #717171;
   text-align: center;
-  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  width: 628px;
+  max-width: 628px;
 }
 
 .community-updates .frame {
@@ -42,9 +39,8 @@
   display: flex;
   flex: 0 0 auto;
   justify-content: space-between;
-  padding: 0px 144px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .community-updates .element {
@@ -64,9 +60,9 @@
 
 .community-updates .content {
   align-items: center;
-  background-color: var(--neutralsilver);
+  background: var(--Neutral-Silver, #F5F7FA);
   border-radius: 8px;
-  box-shadow: var(--shadow-8px);
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -79,7 +75,6 @@
 .community-updates .text-wrapper {
   color: #717171;
   text-align: center;
-  font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -101,7 +96,6 @@
 
 .community-updates .text-wrapper-2 {
   color: #4caf4f;
-  font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -112,14 +106,24 @@
   width: fit-content;
 }
 
-.community-updates .element-arrows-directions {
-  height: 24px !important;
-  position: relative !important;
-  width: 24px !important;
-}
-
 .community-updates .img {
   height: 286px;
   position: relative;
   width: 368px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .community-updates {
+    width: 100%;
+  }
+  .community-updates .description {
+    max-width: 92%;
+  }
+
+  .community-updates .frame {
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+    margin: 0 16px;
+  }
 }
