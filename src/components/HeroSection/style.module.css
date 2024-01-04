@@ -1,10 +1,14 @@
 .hero-section {
-  align-items: center;
   background-color: var(--neutralsilver);
+}
+
+.hero-section .container {
   display: flex;
   gap: 104px;
-  padding: 96px 144px;
-  position: relative;
+  width: 1152px;
+  margin: 0 auto;
+  padding: 96px 0;
+  align-items: center;
 }
 
 .hero-section .frame {
@@ -14,7 +18,6 @@
   flex-direction: column;
   flex-grow: 1;
   gap: 32px;
-  position: relative;
 }
 
 .hero-section .text {
@@ -30,64 +33,49 @@
 
 .hero-section .lessons-and-insights {
   align-self: stretch;
-  color: transparent;
-  font-family: var(--heading-headline-1-font-family);
-  font-size: var(--heading-headline-1-font-size);
-  font-style: var(--heading-headline-1-font-style);
-  font-weight: var(--heading-headline-1-font-weight);
-  letter-spacing: var(--heading-headline-1-letter-spacing);
-  line-height: var(--heading-headline-1-line-height);
-  margin-top: -1px;
-  position: relative;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px;
 }
 
 .hero-section .text-wrapper {
   color: #4d4d4d;
-  font-family: var(--heading-headline-1-font-family);
-  font-size: var(--heading-headline-1-font-size);
-  font-style: var(--heading-headline-1-font-style);
-  font-weight: var(--heading-headline-1-font-weight);
-  letter-spacing: var(--heading-headline-1-letter-spacing);
-  line-height: var(--heading-headline-1-line-height);
 }
 
 .hero-section .span {
   color: #4caf4f;
-  font-family: var(--heading-headline-1-font-family);
-  font-size: var(--heading-headline-1-font-size);
-  font-style: var(--heading-headline-1-font-style);
-  font-weight: var(--heading-headline-1-font-weight);
-  letter-spacing: var(--heading-headline-1-letter-spacing);
-  line-height: var(--heading-headline-1-line-height);
 }
 
-.hero-section .div {
-  align-self: stretch;
-  color: var(--neutralgrey);
-  font-family: var(--body-regular-body-2-font-family);
-  font-size: var(--body-regular-body-2-font-size);
-  font-style: var(--body-regular-body-2-font-style);
-  font-weight: var(--body-regular-body-2-font-weight);
-  letter-spacing: var(--body-regular-body-2-letter-spacing);
-  line-height: var(--body-regular-body-2-line-height);
-  position: relative;
+.hero-section .button {
+  background-color: var(--brandprimary);
+  color: var(--Default-White, #fff);
+  padding: 14px 32px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: none;
+  color: var(--Neutral-White, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: 'Inter' !important;
 }
 
-.hero-section .button-instance {
-  flex: 0 0 auto !important;
+.hero-section .note {
+  color: var(--Neutral-Grey, #717171);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
-.hero-section .design-component-instance-node {
-  font-family: var(--body-medium-body-2-font-family) !important;
-  font-size: var(--body-medium-body-2-font-size) !important;
-  font-style: var(--body-medium-body-2-font-style) !important;
-  font-weight: var(--body-medium-body-2-font-weight) !important;
-  letter-spacing: var(--body-medium-body-2-letter-spacing) !important;
-  line-height: var(--body-medium-body-2-line-height) !important;
-}
 
-.hero-section .illustration {
-  height: 407px;
-  position: relative;
-  width: 391px;
+@media only screen and (max-width: 1200px) {
+  .hero-section .container {
+    width: 92%;
+    flex-direction: column;
+    margin: 0 16px;
+  }
 }
